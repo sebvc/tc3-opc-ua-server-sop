@@ -98,7 +98,7 @@ Once connection is established and confirmed, select the Red Folder icon from th
 
 You will see a device added to the configurator and a message in the log that a configuration has been read successfully. 
 
-## need to look at the AmsNetId and what the field means in this instance.....
+## need to look at the AmsNetId field
 
 ![image-20221004112805812](OPC-UA Sever Startup Procedures.assets/image-20221004112805812.png)
 
@@ -114,29 +114,27 @@ Confirm the configuration is as expected by reviewing the Security tab. You shou
 
 
 
-## Setting up Tc3 Project to expose tags for the OPC-UA Server (as Filtered types).
+## Setting up the Tc3 Project to expose tags for the OPC-UA Server (as filtered types).
 
+Manually add TF6100 license under Licenes > Manage Licenses > Add License :
 
+![Screen Shot 2022-10-04 at 2.04.49 PM](OPC-UA Sever Startup Procedures.assets/Screen Shot 2022-10-04 at 2.04.49 PM.png)
 
 Under the Tc3 Project Settings, make sure the Target Files "TMC File" checkbox is selected.
 
 ![image-20221004114219998](OPC-UA Sever Startup Procedures.assets/image-20221004114219998.png)
 
-
-
 Declare variables with the OPC-UA attribute before each variable you would like exposed to the server. 
 
 ![image-20221004114316351](OPC-UA Sever Startup Procedures.assets/image-20221004114316351.png)
 
+Activate and download Tc3 project to the Target Device. During the actviation the OPC-UA server will be restarted and once running you should be able to use UaExpert to browse the server as a client device. From here you should see the exposed variables that have been declared and have r/w access. 
+
 ![image-20221004114422360](OPC-UA Sever Startup Procedures.assets/image-20221004114422360.png)
 
+As a secondary check, I have also verified the OPC-UA server with an Ignition Client.
+
 ![image-20221004114433519](OPC-UA Sever Startup Procedures.assets/image-20221004114433519.png)
-
-
-
-
-
-
 
 
 
