@@ -4,10 +4,10 @@
 
 | Software Needed                     | Link                         |
 | ----------------------------------- | ---------------------------- |
-| TwinCAT 3 OPC UA Client             | https://tinyurl.com/bdzdwb94 |
-| TwinCAT 3 OPC UA Server             | https://tinyurl.com/bdzdwb94 |
-| TwinCAT 3 OPC UA Configurator       | https://tinyurl.com/bdzdwb94 |
-| TwinCAT 3 OPC UA Gateway (optional) | https://tinyurl.com/bdzdwb94 |
+| TwinCAT 3 OPC UA Client             | https://www.beckhoff.com/tf6100 |
+| TwinCAT 3 OPC UA Server             | https://www.beckhoff.com/tf6100 |
+| TwinCAT 3 OPC UA Configurator       | https://www.beckhoff.com/tf6100 |
+| TwinCAT 3 OPC UA Gateway (optional) | https://www.beckhoff.com/tf6100 |
 | Unified Automation UaExpert         | https://tinyurl.com/46n3hsfb |
 
 
